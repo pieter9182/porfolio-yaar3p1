@@ -191,14 +191,14 @@
     
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="">
+        <form name="contact" action="formulier.php" method="post">
             <div class="input-box">
-                <inpot type="text" name="name" placehorder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="Number" placeholder="Phone Number" required>
-                <input type="text" placeholder="Subject" required>
+                <inpot type="text" name="contact[name]" placehorder="Name" required>
+                <input type="email" name="contact[email]" placeholder="Email" required>
+                <input type="Number" name="contact[phone]" placeholder="Phone Number" required>
+                <input type="text" name="contact[subject]" placeholder="Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="contact[text]" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Massage" class="btn">
         </form>
     </section>
