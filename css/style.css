@@ -687,4 +687,11 @@ footer .copyright{
     .skills{
         grid-template-columns: repeat(2,1fr);
     }
+    .projects-box .projects-info{
+        padding: 0;
+    }
+    .projects-box img{
+        width: 100%;
+        height: auto;
+    }
 }
