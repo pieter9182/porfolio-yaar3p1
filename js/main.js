@@ -27,3 +27,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     type();
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const contactForm = document.getElementById("contactForm");
+    contactForm.addEventListener("submit", function(event) {
+        event.preventDefault(); 
+
+        const formData = new FormData(contactForm);
+
+        fetch(contactForm.action, {
+            method: contactForm.method,
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            alert("Message sent successfully!");
+            contactForm.reset();
+        })
+        .catch(error => {
+            alert("An error occurred. Please try again.");
+            console.error("Error:", error);
+        });
+    });
+});
