@@ -30,23 +30,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener("DOMContentLoaded", function() {
     const contactForm = document.getElementById("contactForm");
-    contactForm.addEventListener("submit", function(event) {
-        event.preventDefault(); 
 
-        const formData = new FormData(contactForm);
+    if (contactForm) {
+        contactForm.addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            const formData = new FormData(contactForm);
 
-        fetch(contactForm.action, {
-            method: contactForm.method,
-            body: formData
-        })
-        .then(response => response.text())
-        .then(data => {
-            alert("Message sent successfully!");
-            contactForm.reset();
-        })
-        .catch(error => {
-            alert("An error occurred. Please try again.");
-            console.error("Error:", error);
+            fetch(contactForm.action, {
+                method: contactForm.method,
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => {
+               
+                console.log("Server response:", data);
+
+                alert("Message sent successfully!");
+                contactForm.reset(); 
+            })
+            .catch(error => {
+                console.error("Submission error:", error);
+                alert("An error occurred. Please try again.");
+            });
         });
-    });
+    } else {
+        console.error("Contact form not found.");
+    }
 });
