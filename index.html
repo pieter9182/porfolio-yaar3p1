@@ -189,6 +189,13 @@
             </div>
             <textarea name="contact[text]" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input target="_blank" type="submit" value="Send Message" class="btn">
+            <script>
+                function submitForm(event) {
+                    event.preventDefault(); // Prevents the page from reloading
+                    alert("Form submitted successfully!"); // You can add any logic here
+                    // Do any other processing you need to do with the form data
+                }
+            </script>
         </form>
     </section>
 
