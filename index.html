@@ -7,14 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b50a0ed724.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="js/main.js" defer></script> 
-    <script>
-        function submitForm(event) {
-            event.preventDefault(); // Prevents the page from reloading
-            alert("Form submitted successfully!"); // You can add any logic here
-            // Do any other processing you need to do with the form data
-        }
-    </script>   
+    <script src="js/main.js" defer></script>    
 </head>
 
 
@@ -159,7 +152,7 @@
         <div class="projects-container">
             <div class="projects-box">
                 <div class="projects-info">
-                    <a class="project game blog" href="/opdrachten/Website-skills/index.html">
+                    <a class="project game blog" href="http://gameblog.damianpietrzak.nl">
                         <img src="img/game blog.png" alt="game blog project">
                     </a> 
                     <h4>blog games year - 1</h4>
@@ -167,21 +160,44 @@
             </div>
             <div class="projects-box">
                 <div class="projects-info">
-                    <a class="project ColorPicker" href="/opdrachten/kleuren%20palet/index.html">
-                        <img src="img/colorpicker.png" alt="colorpicker project">
+                    <a class="project ColorPicker" href="https://colorpicker.damianpietrzak.nl">
+                        <img src="img/color picker.png" alt="colorpicker project">
                     </a>
                     <h4>colorpicker year - 2</h4>
                 </div>
             </div>
             <div class="projects-box">
                 <div class="projects-info">
-                    <a class="project banky" href="/opdrachten/BANKIE/index.html">
-                        <img src="img/banky.png" alt="banky project">
+                    <a class="project banky" href="https://bankie.damianpietrzak.nl">
+                        <img src="img/bankie.png" alt="banky project">
                     </a>
                     <h4>banky year - 2</h4>
                 </div>
             </div>
-            
+            <div class="projects-box">
+                <div class="projects-info">
+                    <a class="project weather app" href="https://weatherapp.damianpietrzak.nl">
+                        <img src="img/weatherapp.png" alt="weather app in react">
+                    </a> 
+                    <h4>react weather app year - 3</h4>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="projects-info">
+                    <a class="project to do list" href="https://todolist.damianpietrzak.nl">
+                        <img src="img/to-do-list.png" alt="to do list in react">
+                    </a> 
+                    <h4>react to do list year - 3</h4>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="projects-info">
+                    <a class="project tic-tac-toe" href="https://todolist.damianpietrzak.nl">
+                        <img src="img/tic-tac-toe.png" alt="tic-tac-toe in react">
+                    </a> 
+                    <h4>react tic-tac-toe year - 3</h4>
+                </div>
+            </div>   
         </div>
     </section>
     
@@ -195,7 +211,7 @@
                 <input type="text" name="contact[subject]" placeholder="Subject" required>
             </div>
             <textarea name="contact[text]" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button target="_blank" type="submit" value="Send Message" class="btn"></button>
+            <input target="_blank" type="submit" value="Send Message" class="btn"> 
             
         </form>
     </section>
