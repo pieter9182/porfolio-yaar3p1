@@ -206,25 +206,25 @@
 
     $formData = isset($_POST['contact']) ? $_POST['contact'] : false; // shorthand code for if ? else : statement
     if($formData) {
-    $email = htmlspecialchars($formData['email']);
-    $phoneNumber = htmlspecialchars($formData['phone']);
-    $subject = htmlspecialchars($formData['subject']);
-    $text = htmlspecialchars($formData['text']);
+        $email = htmlspecialchars($formData['email']);
+        $phoneNumber = htmlspecialchars($formData['phone']);
+        $subject = htmlspecialchars($formData['subject']);
+        $text = htmlspecialchars($formData['text']);
 
-    $headers = 'From: ' . $email . "\r\n" .
-    'Reply-To: ' . $email . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+        $headers = 'From: ' . $email . "\r\n" .
+        'Reply-To: ' . $email . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
 
-    if(mail(
-        'damianpietrzak1999@gmail.com',
-        'Contact via portfolio: '.$subject,
-        'Email: '.$email.', Telefoonnummer: '.$phoneNumber.', Tekst:'.$text
-    )){
-         ?>
-         <script>alert("Email send");</script>
-         <?php
+        if(mail(
+            'damianpietrzak1999@gmail.com',
+            'Contact via portfolio: '.$subject,
+            'Email: '.$email.', Telefoonnummer: '.$phoneNumber.', Tekst:'.$text,
+            $headers
+        )){
+            echo '<script>alert("Email sent successfully");</script>';
+        }
+
     }
-}
 ?>
 
     <section class="contact" id="contact">
