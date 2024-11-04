@@ -11,10 +11,12 @@ if($formData) {
     'Reply-To: ' . $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-    mail(
+    if(mail(
         'damianpietrzak1999@gmail.com',
         'Contact via portfolio: '.$subject,
         'Email: '.$email.', Telefoonnummer: '.$phoneNumber.', Tekst:'.$text
-    );
+    )){
+        echo 'Mail verzonden';
+    }
 }
 ?>
