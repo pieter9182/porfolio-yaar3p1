@@ -243,15 +243,6 @@
     </section>
 
     <footer class="footer">
-        <div class="social">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>  
-            <a href="#"><i class="fa-brands fa-github"></i></a> 
-        </div>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Privacy Policies</a></li>
-        </ul>
         <p class="copyright">
             Made by Damian Pietrzak
         </p>
