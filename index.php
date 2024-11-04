@@ -202,9 +202,32 @@
         </div>
     </section>
     
+<?php 
+
+    $formData = isset($_POST['contact']) ? $_POST['contact'] : false; // shorthand code for if ? else : statement
+    if($formData) {
+    $email = htmlspecialchars($formData['email']);
+    $phoneNumber = htmlspecialchars($formData['phone']);
+    $subject = htmlspecialchars($formData['subject']);
+    $text = htmlspecialchars($formData['text']);
+
+    $headers = 'From: ' . $email . "\r\n" .
+    'Reply-To: ' . $email . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+    if(mail(
+        'damianpietrzak1999@gmail.com',
+        'Contact via portfolio: '.$subject,
+        'Email: '.$email.', Telefoonnummer: '.$phoneNumber.', Tekst:'.$text
+    )){
+         echo 'Mail verzonden';
+    }
+}
+?>
+
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form name="contact" action="formulier.php" method="post">
+        <form name="contact" action="index.php" method="post">
             <div class="input-box">
                 <input type="text" name="contact[name]" placeholder="Name" required>
                 <input type="email" name="contact[email]" placeholder="Email" required>
