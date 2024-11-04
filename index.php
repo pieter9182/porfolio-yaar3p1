@@ -220,7 +220,9 @@
         'Contact via portfolio: '.$subject,
         'Email: '.$email.', Telefoonnummer: '.$phoneNumber.', Tekst:'.$text
     )){
-         echo 'Mail verzonden';
+         ?>
+         <script>alert("Email send");</script>
+         <?php
     }
 }
 ?>
