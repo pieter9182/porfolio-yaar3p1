@@ -540,7 +540,7 @@ span{
 
 .projects-box h4{
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--main-color);
 }
@@ -556,6 +556,29 @@ span{
 
 .projects-box{
     padding: 5rem;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.8rem; 
+    color: var(--main-color); 
+    transition: color 0.3s ease;
+    gap: 0.5rem; 
+}
+
+.github-link:hover {
+    color: var(--text-color); 
+}
+
+.github-link i {
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.github-link:hover i {
+    transform: scale(1.1); 
+    color: var(--text-color); 
 }
 
 /*contact section*/

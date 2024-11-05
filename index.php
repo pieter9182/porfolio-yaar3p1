@@ -153,84 +153,81 @@
     <section class="projects" id="projects">
         <h2 class="heading">My projects</h2>
         <div class="projects-container">
+        
             <div class="projects-box">
+                <a href="https://weatherapp.damianpietrzak.nl" class="project-link" target="_blank">
+                    <img src="img/weatherapp.png" alt="Weather app in React">
+                </a>
                 <div class="projects-info">
-                    <a class="project weather app" href="https://weatherapp.damianpietrzak.nl">
-                        <img src="img/weatherapp.png" alt="weather app in react">
+                    <h4>React Weather App (Year 3)</h4>
+                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/weather%20app/weather%20app" target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> View on Github
                     </a>
-                    <div class="projects-info">
-                        <h4>React weather app year - 3</h4>
-                        <a href="https://github.com/pieter9182/small-react-projects/tree/main/weather%20app/weather%20app" target="_blank">
-                            <i class="fa-brands fa-github"></i></a>
-                    </div> 
-                    
                 </div>
             </div>
+
             <div class="projects-box">
+                <a href="https://todolist.damianpietrzak.nl" class="project-link" target="_blank">
+                    <img src="img/to-do-list.png" alt="To-do list in React">
+                </a>
                 <div class="projects-info">
-                    <a class="project to do list" href="https://todolist.damianpietrzak.nl">
-                        <img src="img/to-do-list.png" alt="to do list in react">
+                    <h4>React To-do List (Year 3)</h4>
+                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/to-do-list/reactjs-todolist" target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> View on Github
                     </a>
-                    <div class="projects-info">
-                        <h4>React to do list year - 3</h4>
-                        <a href="https://github.com/pieter9182/small-react-projects/tree/main/to-do-list/reactjs-todolist" target="_blank">
-                            <i class="fa-brands fa-github"></i></a>
-                    </div> 
-                    
                 </div>
             </div>
+
             <div class="projects-box">
+                <a href="https://tictactoe.damianpietrzak.nl" class="project-link" target="_blank">
+                    <img src="img/tic-tac-toe.png" alt="Tic-Tac-Toe game in React">
+                </a>
                 <div class="projects-info">
-                    <a class="project tic-tac-toe" href="https://tictactoe.damianpietrzak.nl">
-                        <img src="img/tic-tac-toe.png" alt="tic-tac-toe in react">
+                    <h4>React Tic-Tac-Toe (Year 3)</h4>
+                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/tic-tac-toe/tic-tac-toe" target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> View on Github
                     </a>
-                    <div class="projects-info">
-                        <h4>React tic-tac-toe year - 3</h4>
-                        <a href="https://github.com/pieter9182/small-react-projects/tree/main/tic-tac-toe/tic-tac-toe" target="_blank">
-                            <i class="fa-brands fa-github"></i></a>
-                    </div> 
-                    
-                </div>
-            </div> 
-            <div class="projects-box">
-                <div class="projects-info">
-                    <a class="project ColorPicker" href="https://colorpicker.damianpietrzak.nl">
-                        <img src="img/color picker.png" alt="colorpicker project">
-                    </a>
-                    <div class="projects-info">
-                        <h4>Colorpicker year - 2</h4>
-                        <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/color%20picker" target="_blank">
-                            <i class="fa-brands fa-github"></i></a>
-                    </div>   
                 </div>
             </div>
+
             <div class="projects-box">
+                <a href="https://colorpicker.damianpietrzak.nl" class="project-link" target="_blank">
+                    <img src="img/color picker.png" alt="Color Picker project">
+                </a>
                 <div class="projects-info">
-                    <a class="project banky" href="https://bankie.damianpietrzak.nl">
-                        <img src="img/bankie.png" alt="banky project">
-                    <div class="project-info">
-                        <h4>Bankie year - 2</h4>
-                        <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/BANKIE" target="_blank">
-                            <i class="fa-brands fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="projects-box">
-                <div class="projects-info">
-                    <a class="project game blog" href="http://gameblog.damianpietrzak.nl">
-                        <img src="img/game blog.png" alt="game blog project">
+                    <h4>Color Picker (Year 2)</h4>
+                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/color%20picker" target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> View on Github
                     </a>
-                    <div class="projects-info">
-                    <h4>Blog games year - 1</h4>
-                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/games%20blog" target="_blank">
-                        <i class="fa-brands fa-github"></i></a>
-                    </div> 
-                    
                 </div>
             </div>
-              
+
+            <div class="projects-box">
+                <a href="https://bankie.damianpietrzak.nl" class="project-link" target="_blank">
+                    <img src="img/bankie.png" alt="Bankie project">
+                </a>
+                <div class="projects-info">
+                    <h4>Bankie (Year 2)</h4>
+                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/BANKIE" target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> View on Github
+                    </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <a href="http://gameblog.damianpietrzak.nl" class="project-link" target="_blank">
+                    <img src="img/game blog.png" alt="Game Blog project">
+                </a>
+                <div class="projects-info">
+                    <h4>Game Blog (Year 1)</h4>
+                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/games%20blog" target="_blank" class="github-link">
+                        <i class="fa-brands fa-github"></i> View on Github
+                    </a>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </section>  
     
 <?php 
 
