@@ -558,29 +558,6 @@ span{
     padding: 5rem;
 }
 
-.github-link {
-    display: inline-flex;
-    align-items: center;
-    font-size: 1.8rem; 
-    color: var(--main-color); 
-    transition: color 0.3s ease;
-    gap: 0.5rem; 
-}
-
-.github-link:hover {
-    color: var(--text-color); 
-}
-
-.github-link i {
-    font-size: 2rem;
-    transition: transform 0.3s ease;
-}
-
-.github-link:hover i {
-    transform: scale(1.1); 
-    color: var(--text-color); 
-}
-
 /*contact section*/
 
 .contact h2{

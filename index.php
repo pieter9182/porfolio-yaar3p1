@@ -160,8 +160,8 @@
                 </a>
                 <div class="projects-info">
                     <h4>React Weather App (Year 3)</h4>
-                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/weather%20app/weather%20app" target="_blank" class="github-link">
-                        <i class="fa-brands fa-github"></i> View on Github
+                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/weather%20app/weather%20app" target="_blank">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -172,8 +172,8 @@
                 </a>
                 <div class="projects-info">
                     <h4>React To-do List (Year 3)</h4>
-                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/to-do-list/reactjs-todolist" target="_blank" class="github-link">
-                        <i class="fa-brands fa-github"></i> View on Github
+                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/to-do-list/reactjs-todolist" target="_blank">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -184,8 +184,8 @@
                 </a>
                 <div class="projects-info">
                     <h4>React Tic-Tac-Toe (Year 3)</h4>
-                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/tic-tac-toe/tic-tac-toe" target="_blank" class="github-link">
-                        <i class="fa-brands fa-github"></i> View on Github
+                    <a href="https://github.com/pieter9182/small-react-projects/tree/main/tic-tac-toe/tic-tac-toe" target="_blank">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -196,8 +196,8 @@
                 </a>
                 <div class="projects-info">
                     <h4>Color Picker (Year 2)</h4>
-                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/color%20picker" target="_blank" class="github-link">
-                        <i class="fa-brands fa-github"></i> View on Github
+                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/color%20picker" target="_blank">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -208,8 +208,8 @@
                 </a>
                 <div class="projects-info">
                     <h4>Bankie (Year 2)</h4>
-                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/BANKIE" target="_blank" class="github-link">
-                        <i class="fa-brands fa-github"></i> View on Github
+                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/BANKIE" target="_blank">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
@@ -220,8 +220,8 @@
                 </a>
                 <div class="projects-info">
                     <h4>Game Blog (Year 1)</h4>
-                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/games%20blog" target="_blank" class="github-link">
-                        <i class="fa-brands fa-github"></i> View on Github
+                    <a href="https://github.com/pieter9182/projects-portfolio-nonReact/tree/main/games%20blog" target="_blank">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
