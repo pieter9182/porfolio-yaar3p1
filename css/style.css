@@ -546,7 +546,7 @@ span{
     color: var(--main-color);
 }
 
-.projects-box .projects-info{
+.projects-box{
     display: flex;
     flex-direction: column;
     text-align: center;
