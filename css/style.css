@@ -552,6 +552,9 @@ span{
     max-height: 20rem;
     justify-content: center;
     align-items: center;
+}
+
+.projects-box{
     padding: 5rem;
 }
 
