@@ -41,7 +41,7 @@
                 <a href="https://www.linkedin.com/in/damian-pietrzak-4949a42b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/pieter9182" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="mailto:damianpietrzak1999@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-                <a href="file/damian-pietrzak-FlowCV-Resume-20241112.pdf" download="software development resume.docx" target="_blank">
+                <a href="file/damian-pietrzak-resume.pdf" download="damian-pietrzak-resume.pdf" target="_blank">
     <i class="fa-solid fa-file"></i>
 </a>
             </div>
