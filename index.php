@@ -34,8 +34,7 @@
         <div class="home-content">
             <h1>Hello, I am <Span>Damian Pietrzak</Span></h1>
             <h3 class="typing-text">I'm a <span id="dynamic-text"></span></h3>
-            <p>aspiring frontend developer with a strong eagerness to learn and grow in the field of web development. As a beginner, I actively seek opportunities to enhance my skills by collaborating with experienced developers and learning from my peers.
-In addition to my passion for coding, I enjoy playing basketball, working out, playing the guitar, and gaming. While my primary goal is to specialize in frontend development, I am open to expanding my expertise to full-stack development as needed. I am committed to continuous improvement and excited to contribute to impactful projects while advancing my career in development.       
+            <p>i am an aspiring frontend developer passionate about learning and improving my skills. I enjoy collaborating with others and exploring new challenges in development. While my focus is on frontend, I’m open to full-stack opportunities. Outside of coding, I enjoy basketball, working out, playing guitar, and gaming.      
             </p>
             <div class="social-icon">
                 <a href="https://www.linkedin.com/in/damian-pietrzak-4949a42b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
