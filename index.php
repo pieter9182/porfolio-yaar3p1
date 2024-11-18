@@ -34,7 +34,7 @@
         <div class="home-content">
             <h1>Hello, I am <Span>Damian Pietrzak</Span></h1>
             <h3 class="typing-text">I'm a <span id="dynamic-text"></span></h3>
-            <p>i am an aspiring frontend developer passionate about learning and improving my skills. I enjoy collaborating with others and exploring new challenges in development. While my focus is on frontend, I’m open to full-stack opportunities. Outside of coding, I enjoy basketball, working out, playing guitar, and gaming.      
+            <p>I am an aspiring frontend developer passionate about learning and improving my skills. I enjoy collaborating with others and exploring new challenges in development. While my focus is on frontend, I’m open to full-stack opportunities. Outside of coding, I enjoy basketball, working out, playing guitar, and gaming.      
             </p>
             <div class="social-icon">
                 <a href="https://www.linkedin.com/in/damian-pietrzak-4949a42b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
